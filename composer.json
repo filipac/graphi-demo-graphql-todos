@@ -1,0 +1,38 @@
+{
+    "name": "filipac/graphi-demo-graphql-todos",
+    "description": "Demo for creating GraphQL types in GraphiCMS",
+    "keywords": [
+        "filipac",
+        "graphi-demo-graphql-todos"
+    ],
+    "homepage": "https://github.com/filipac/graphi-demo-graphql-todos",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "filip pacurar",
+            "email": "filip@pacurar.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.7.*",
+        "graphicms/cms": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Filipac\\GraphiDemoGraphqlTodos\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Filipac\\GraphiDemoGraphqlTodos\\GraphiDemoGraphqlTodosServiceProvider"
+            ]
+        }
+    }
+}
